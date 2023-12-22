@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "prefer-const": "error",
+    "no-var": "error",
+    "eol-last": "error",
+    "no-console": "error",
+    "no-return-await": "warn",
+    "arrow-body-style": ["warn", "as-needed"],
+    "eqeqeq": "error"
+  }
+}
