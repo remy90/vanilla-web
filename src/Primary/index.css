@@ -2,17 +2,25 @@
   padding: 1rem;
   margin: 1rem;
 }
-p {
+.primaryText p {
   background-color: hsla(0, 0%, 100%, 0.6);
-  padding: 1rem;
   color: black;
+}
+@media screen and (max-width: 600px) {
+  .primaryText {
+    margin: 0;
+    padding: 0.5rem;
+  }
+}
+p {
+  padding: 1rem;
 }
 .primary {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-image: url('/polignano.jpeg');
+  background-image: url('/polignano.avif');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

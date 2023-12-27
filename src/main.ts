@@ -5,12 +5,14 @@ import './style.css'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = /*html*/ `
 <body>
-  <div class='background'>
+  <main><div class='background'>
     ${Primary}
     ${Secondary}
   </div>
-
-  Shaun Gaisie | ${new Date(Date.now()).getFullYear()}
+</main>
+<footer>
+  <p>Shaun Gaisie | ${new Date(Date.now()).getFullYear()}</p>
+</footer>
 </body>
 
 `

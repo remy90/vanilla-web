@@ -1,0 +1,19 @@
+# robots.txt for https://main.d35x1j5fo4yso2.amplifyapp.com/
+
+# Allow all crawlers access to all content
+User-agent: *
+Disallow: /public/*.jpg
+Disallow: /public/*.jpeg
+Disallow: /public/*.png
+Disallow: /public/*.gif
+Disallow: /public/*.svg
+Disallow: /public/*.avif
+
+# Disallow crawling of specific folders
+# Disallow: /private/
+# Disallow: /tmp/
+
+# Disallow crawling of specific files
+# Disallow: /private_file.html
+
+# Sitemap location
