@@ -1,5 +1,6 @@
 import { getYearDiff } from '../helper'
 import './index.css'
+
 export const Primary = /*html*/ `
 <div class='primary'>
   <picture class='profile-pic'>

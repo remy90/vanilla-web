@@ -1,6 +1,7 @@
 import { LinkIcon } from '../LinkIcon'
 import { listOfLinks } from '../LinkIcon/helper'
 import './index.css'
+
 export const Secondary = /*html */ `
   <div class="secondary">
     <div class="secondaryText">
@@ -16,10 +17,6 @@ AWS, AWS CDK
 Recoil, Bash, Webpack, Cypress and automated testing, 
     </section>
     </div>
-    <div class="linkBar">${listOfLinks
-      .map(item => {
-        return LinkIcon({ ...item })
-      })
-      .join('')}</div>
+    <div class="linkBar">${listOfLinks.map(item => LinkIcon({ ...item })).join('')}</div>
   </div>
 `

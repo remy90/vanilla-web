@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build"
+    "build": "tsc && vite build",
+    "lint": "eslint --ext .ts src && tsc --noEmit"
   },
   "devDependencies": {
     "@types/node": "^20.10.5",
