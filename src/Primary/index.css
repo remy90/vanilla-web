@@ -1,0 +1,24 @@
+.primaryText {
+  padding: 1rem;
+  margin: 1rem;
+}
+p {
+  background-color: hsla(0, 0%, 100%, 0.6);
+  padding: 1rem;
+  color: black;
+}
+.primary {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url('/polignano.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: auto;
+  min-height: 80vh;
+  min-width: 50vw;
+  margin: 0 auto;
+}

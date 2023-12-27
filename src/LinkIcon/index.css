@@ -1,0 +1,21 @@
+.hyperlink-icon {
+  width: 4rem;
+}
+/* .originalColour:hover {
+  fill: #3c4a5e;
+}
+.hyperlink-icon:hover {
+} */
+/* .svgImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+} */
+.linkAnchor {
+  width: 100%;
+  height: 100%;
+}
+
+.linkAnchor::hover svg {
+  fill: black;
+}

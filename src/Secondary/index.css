@@ -1,0 +1,17 @@
+.linkBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 4rem;
+  background-color: hsla(0, 0%, 100%, 0.6);
+  width: 100%;
+  margin: 1rem 0;
+}
+.secondaryText {
+  padding: 1rem;
+}
+.secondary {
+  width: 100%;
+  /* min-width: 100vw; */
+}
