@@ -1,4 +1,4 @@
-import { LinkIcon } from '../LinkIcon/types'
+import { LinkIcon } from '../LinkBar/LinkIcon/types'
 /**
  * TypeScript, NextJS, Jest, es6, React Testing Library, Redux, CSS-in-JS, CSS, GitHub, REST, HTML,  node.js,  UI/UX, Jotai
 AWS, AWS CDK

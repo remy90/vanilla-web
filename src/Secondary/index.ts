@@ -1,5 +1,4 @@
-import { LinkIcon } from '../LinkIcon'
-import { listOfLinks } from '../LinkIcon/helper'
+import { LinkBar } from '../LinkBar'
 import './index.css'
 
 export const Secondary = /*html */ `
@@ -19,6 +18,6 @@ Recoil, Bash, Webpack, Cypress and automated testing</p>
 <p>At the time of writing, All google lighthouse scores were above 90% for desktop.</p>
     </section>
     </div>
-    <div class="linkBar">${listOfLinks.map(item => LinkIcon({ ...item })).join('')}</div>
+   <div class="mobileOnly"> ${LinkBar}</div>
   </div>
 `

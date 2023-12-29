@@ -12,7 +12,17 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html,
+main,
+.background {
+  width: 100%;
+  height: 100%;
+}
 a {
   font-weight: 500;
   color: #646cff;
@@ -26,8 +36,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box; /* Ensures padding and border are included in width/height */
-  min-height: 100vh;
-  display: inline;
+  min-height: 100dvh;
 }
 
 h1 {
@@ -38,9 +47,10 @@ h1 {
 #app {
   max-width: 1280px;
   text-align: left;
-  width: 100vw;
+  width: 100%;
   height: 100%;
-  margin: 0 auto;
+
+  min-height: 100dvh;
 }
 
 .logo {
@@ -97,17 +107,11 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-
-.profile-pic {
-  display: inline-flex;
-  width: 10rem;
-  height: auto;
-  margin: 1rem auto;
-  min-height: 160px;
+html,
+body {
+  height: 100%;
 }
-.profile-pic > img {
-  border-radius: 50%;
-  width: 160px;
-  height: 160px;
-  height: auto;
+.bodyCol {
+  display: flex;
+  flex-direction: column;
 }

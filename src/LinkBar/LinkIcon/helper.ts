@@ -1,7 +1,7 @@
-import { githubSvg } from '../../public/github'
-import { linkedInSvg } from '../../public/linkedIn'
-import { stackOverflowSvg } from '../../public/stackOverflow'
-import { xSvg } from '../../public/x'
+import { githubSvg } from '../../../public/github'
+import { linkedInSvg } from '../../../public/linkedIn'
+import { stackOverflowSvg } from '../../../public/stackOverflow'
+import { xSvg } from '../../../public/x'
 import { LinkIcon } from './types'
 
 export const listOfLinks: LinkIcon[] = [
